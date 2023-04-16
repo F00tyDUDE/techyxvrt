@@ -1,5 +1,5 @@
 _G.enable = false
-_G.color = Color3.fromRGB(255,0,0)
+_G.color = Color3.fromRGB(0,255,0)
 _G.toggle_keybind = "h" -- enable tracer and disable
 _G.swith_nigga = 'p' -- press t and u will see a noti on the user ur tracer is on 
 _G.method = "MousePos" --had a stroke sotkraakdakdakdkadkadkakdakdakdkdakdakdkadkadka
