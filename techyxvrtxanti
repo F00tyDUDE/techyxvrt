@@ -62,7 +62,7 @@ end
 
 --- 
 mouse.KeyDown:Connect(function(z)
-    if v == _G.toggle_keybind then
+    if h == _G.toggle_keybind then
         if _G.enable == false then
             _G.enable = true
             sendnotifi("enabled")
@@ -74,7 +74,7 @@ mouse.KeyDown:Connect(function(z)
 end)
 
 mouse.KeyDown:Connect(function(z)
-    if v == _G.swith_nigga then
+    if p == _G.swith_nigga then
         target = get_closet()
         sendnotifi("targeting: "..tostring(target.Name))
     end
