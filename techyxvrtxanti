@@ -1,7 +1,7 @@
 _G.enable = false
 _G.color = Color3.fromRGB(0,255,0)
 _G.toggle_keybind = "h" -- enable tracer and disable
-_G.swith_nigga = 'p' -- press t and u will see a noti on the user ur tracer is on 
+_G.swith_nigga = 'P' -- press t and u will see a noti on the user ur tracer is on 
 _G.method = "MousePos" --had a stroke sotkraakdakdakdkadkadkakdakdakdkdakdakdkadkadka
 
 if game.PlaceId == 2788229376 then
@@ -74,7 +74,7 @@ mouse.KeyDown:Connect(function(z)
 end)
 
 mouse.KeyDown:Connect(function(z)
-    if z == _G.swith_nigga then
+    if v == _G.swith_nigga then
         target = get_closet()
         sendnotifi("targeting: "..tostring(target.Name))
     end
